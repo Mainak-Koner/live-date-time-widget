@@ -1,0 +1,26 @@
+.clock {
+  margin: auto;
+  background: #333333;
+  width: 400px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.clock-time,
+.clock-ampm,
+.ddmmyyyy {
+  font-family: 'Orbitron';
+  font-size: 30px;
+  color: #eeeeee;
+}
+
+.day {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #eeeeee;
+}
+
+.clock-time {
+  font-size: 40px;
+}
