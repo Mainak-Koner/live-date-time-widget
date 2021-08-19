@@ -57,7 +57,7 @@ class CalenderDate {
     const parts = this.getDateParts();
     const dateFormatted = parts.date.toString().padStart(2, "0");
     const monthFormatted = parts.month.toString().padStart(2, "0");
-    var dt;
+    let dt;
     switch (parts.day) {
       case 0:
         dt = "Sun";
