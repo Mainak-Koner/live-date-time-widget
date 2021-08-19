@@ -96,7 +96,7 @@ class CalenderDate {
     return {
       day: today.getDay(),
       date: today.getDate(),
-      month: today.getMonth(),
+      month: today.getMonth() + 1,
       year: today.getFullYear()
     };
   }
